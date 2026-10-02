@@ -327,3 +327,212 @@ html[lang="en"] .map-card p {
   .metric-row > div:first-child > strong::after { font-size: 36px !important; }
   .metric-row > div > span[data-i18n] { font-size: 17px !important; }
 }
+
+/* CLIENT REVISION V7 — Team initials + Our Clients showcase */
+.person-initials{
+  width:100%;
+  margin:18px 0 28px;
+  padding-left:2px;
+  font-family:var(--serif);
+  font-size:clamp(82px,8vw,118px);
+  line-height:.78;
+  letter-spacing:-.09em;
+  color:var(--hot);
+  text-shadow:0 18px 50px rgba(243,106,22,.12);
+}
+html[dir="rtl"] .person-initials{padding-left:0;padding-right:2px;text-align:right}
+.person-card .person-line{margin-bottom:22px}
+
+.clients{overflow:hidden;isolation:isolate}
+.clients-orb{position:absolute;border-radius:50%;pointer-events:none;filter:blur(2px);z-index:-1}
+.clients-orb-one{width:420px;height:420px;right:-190px;top:110px;background:radial-gradient(circle,rgba(243,106,22,.13),transparent 68%)}
+.clients-orb-two{width:340px;height:340px;left:-180px;bottom:70px;background:radial-gradient(circle,rgba(42,19,13,.10),transparent 70%)}
+.clients-head{display:grid;grid-template-columns:1.1fr .7fr;gap:70px;align-items:end;margin-bottom:55px}
+.clients-head .lead{max-width:500px;margin:0 0 6px auto}
+.clients-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.client-card{position:relative;min-height:300px;padding:14px 14px 22px;border:1px solid rgba(74,50,35,.12);border-radius:24px;background:rgba(255,250,243,.66);box-shadow:0 20px 55px rgba(38,16,8,.07);transition:transform .4s ease,border-color .4s ease,box-shadow .4s ease;overflow:hidden}
+.client-card:before{content:"";position:absolute;inset:0;background:linear-gradient(145deg,rgba(255,255,255,.7),transparent 55%);pointer-events:none}
+.client-card:hover{transform:translateY(-8px);border-color:rgba(243,106,22,.38);box-shadow:0 28px 70px rgba(38,16,8,.12)}
+.client-logo{height:190px;border-radius:18px;background:#fff;display:grid;place-items:center;overflow:hidden;position:relative;z-index:1;border:1px solid rgba(74,50,35,.08)}
+.client-logo img{width:100%;height:100%;object-fit:contain;padding:16px}
+.client-logo-dark{background:#0d2a5b}
+.client-logo-dark img{padding:0;object-fit:cover}
+.client-card h3{position:relative;z-index:1;font-family:var(--serif);font-size:20px;line-height:1.08;margin:20px 8px 7px;letter-spacing:-.02em}
+.client-card>span{position:relative;z-index:1;margin:0 8px;color:var(--hot);font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+html[dir="rtl"] .clients-head{direction:rtl}
+html[dir="rtl"] .clients-head .lead{margin:0 auto 6px 0}
+html[dir="rtl"] .client-card{text-align:right}
+html[dir="rtl"] .client-card>span{letter-spacing:0}
+
+@media(max-width:1100px){
+  .clients-grid{grid-template-columns:repeat(3,1fr)}
+  .clients-head{grid-template-columns:1fr .8fr;gap:35px}
+}
+@media(max-width:760px){
+  .clients-head{grid-template-columns:1fr;gap:18px;margin-bottom:34px}
+  .clients-head .lead,html[dir="rtl"] .clients-head .lead{margin:0;max-width:100%}
+  .clients-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .client-card{min-height:255px;padding:10px 10px 18px;border-radius:18px}
+  .client-logo{height:145px;border-radius:13px}
+  .client-logo img{padding:10px}
+  .client-card h3{font-size:17px;margin:15px 5px 6px}
+  .client-card>span{font-size:8px;margin:0 5px}
+  .person-initials{font-size:82px;margin:10px 0 24px}
+}
+@media(max-width:430px){
+  .clients-grid{grid-template-columns:1fr}
+  .client-card{min-height:285px}
+  .client-logo{height:170px}
+}
+
+/* Final client polish */
+.nav-links{font-size:13px}
+.section-rail{font-size:11px}
+.metric-row>div>span{font-size:15px!important;line-height:1.35!important}
+.contact-lines strong[dir="ltr"]{direction:ltr;unicode-bidi:isolate;text-align:right}
+.manifesto-img img{object-position:center center!important}
+@media(max-width:980px){.nav-links{font-size:12px}}
+
+/* FINAL HMJ CLIENT POLISH — 2026-10-02 */
+.nav-shell{z-index:2}
+.brand-main{font-size:40px!important;line-height:.82}
+.footer .brand-main{font-size:52px!important;line-height:.78}
+.lang-toggle{position:relative;z-index:5;pointer-events:auto;cursor:pointer}
+.section-rail{font-size:15px!important;gap:16px!important;letter-spacing:.08em}
+.section-rail .rail-mark{font-weight:600}
+.section-tag,.micro{font-size:14px!important}
+.person-initials{width:auto;margin:18px 0 24px;padding:0!important;font-size:clamp(88px,9vw,128px);line-height:.75;letter-spacing:-.1em;text-align:left!important}
+html[dir="rtl"] .person-initials{text-align:right!important}
+.clients-grid{grid-template-columns:repeat(3,1fr);gap:20px}
+.client-card{min-height:335px;padding:16px 16px 24px;border-radius:26px}
+.client-logo{height:210px;border-radius:20px;padding:0!important}
+.client-logo img{width:100%;height:100%;object-fit:contain;padding:22px!important}
+.client-logo-daftra{background:#1f78e5}
+.client-logo-daftra img{object-fit:contain;padding:24px!important}
+.client-logo-orange{background:#ff7900}
+.client-logo-orange img{object-fit:contain;padding:28px!important}
+.client-logo-wordmark{background:linear-gradient(145deg,#fffaf3,#f0e4d7);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#173b4c;gap:8px}
+.client-logo-wordmark span{font-family:var(--serif);font-size:42px;font-weight:700;letter-spacing:.08em}
+.client-logo-wordmark small{font-family:var(--arabic);font-size:17px;color:var(--hot);font-weight:700}
+.client-card h3{font-size:22px;margin-top:20px}
+.client-card>span{font-size:11px}
+.footer{padding-top:92px}
+.footer-grid{gap:90px}
+.footer-grid .brand{min-width:210px}
+@media(max-width:1100px){.clients-grid{grid-template-columns:repeat(2,1fr)}.brand-main{font-size:36px!important}.footer .brand-main{font-size:48px!important}}
+@media(max-width:760px){.brand-main{font-size:30px!important}.footer .brand-main{font-size:42px!important}.section-rail{display:flex!important;left:12px!important;right:auto!important;font-size:12px!important;gap:10px!important}.clients-grid{grid-template-columns:repeat(2,1fr);gap:12px}.client-card{min-height:280px;padding:10px 10px 18px;border-radius:18px}.client-logo{height:155px;border-radius:14px}.client-logo img{padding:14px!important}.client-logo-wordmark span{font-size:27px}.client-logo-wordmark small{font-size:13px}.client-card h3{font-size:17px;margin:15px 5px 6px}.client-card>span{font-size:9px;margin:0 5px}.section-tag,.micro{font-size:12px!important}}
+@media(max-width:430px){.clients-grid{grid-template-columns:1fr}.client-card{min-height:300px}.client-logo{height:175px}.section-rail{font-size:11px!important;gap:8px!important}}
+
+/* CLIENT REVISION V8 — header interaction, client logos, Boulevard */
+.nav{pointer-events:auto!important;}
+.nav-shell{pointer-events:auto!important;position:relative!important;z-index:505!important;}
+.nav-shell a,.nav-shell button{pointer-events:auto!important;position:relative!important;z-index:506!important;}
+.nav-links{position:relative!important;z-index:506!important;}
+.nav-actions{position:relative!important;z-index:507!important;}
+.lang-toggle{cursor:pointer!important;}
+.brand{flex:0 0 auto!important;min-width:175px!important;}
+.nav .brand-main{font-size:50px!important;line-height:.68!important;}
+.nav .brand-sub{font-size:10px!important;margin-top:8px!important;white-space:nowrap!important;}
+.clients-grid{align-items:stretch!important;}
+.client-card{display:flex!important;flex-direction:column!important;min-width:0!important;}
+.client-logo{height:190px!important;background:#fff!important;padding:16px!important;overflow:hidden!important;}
+.client-logo img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;padding:0!important;max-width:100%!important;}
+.client-card h3{font-size:20px!important;line-height:1.15!important;margin-top:18px!important;overflow-wrap:anywhere!important;}
+.client-card>span{margin-top:8px!important;}
+@media(max-width:980px){.nav .brand-main{font-size:42px!important}.brand{min-width:145px!important}.client-logo{height:170px!important}}
+@media(max-width:720px){.nav .brand-main{font-size:36px!important}.brand{min-width:115px!important}.client-logo{height:165px!important}}
+
+/* CLIENT REVISION V9 — slightly larger header contents */
+@media(min-width:981px){
+  .nav-shell{height:80px!important;padding-left:24px!important;padding-right:20px!important;}
+  .nav .brand-main{font-size:54px!important;}
+  .nav .brand-sub{font-size:11px!important;}
+  .nav-links{font-size:14px!important;gap:31px!important;font-weight:600!important;}
+  .lang-toggle{font-size:11px!important;padding:9px 14px!important;}
+  .nav-actions{gap:14px!important;}
+  .nav-cta{min-height:52px!important;padding:0 23px!important;font-size:13px!important;}
+  .nav.scrolled .nav-shell{height:72px!important;}
+}
+
+
+/* CLIENT REVISION V10 — robust navigation + clean header composition */
+html{scroll-padding-top:112px}
+main section[id]{scroll-margin-top:112px}
+
+/* Never disable pointer input on the fixed header.  Previous V8 rule did this. */
+.nav{
+  pointer-events:auto!important;
+  z-index:900!important;
+}
+.nav-shell{
+  pointer-events:auto!important;
+  isolation:isolate;
+  overflow:visible!important;
+}
+.nav-shell a,.nav-shell button,.nav-links,.nav-actions,.brand{
+  pointer-events:auto!important;
+}
+.nav-links a,.lang-toggle,.nav-cta,.brand{cursor:pointer!important}
+
+/* Keep the desktop header tidy and fully clickable. */
+@media(min-width:981px){
+  .nav-shell{height:82px!important;padding:0 22px 0 24px!important;}
+  .nav .brand-main{font-size:55px!important;line-height:.70!important;}
+  .nav .brand-sub{font-size:11px!important;line-height:1.05!important;margin-top:7px!important;}
+  .nav-links{font-size:15px!important;gap:29px!important;font-weight:650!important;white-space:nowrap!important;}
+  .nav-actions{gap:14px!important;flex:0 0 auto!important;}
+  .lang-toggle{font-size:12px!important;padding:10px 15px!important;min-height:39px!important;}
+  .nav-cta{min-height:54px!important;padding:0 24px!important;font-size:13px!important;}
+  .nav.scrolled .nav-shell{height:74px!important;}
+  /* The hidden mobile menu must not leak large text over the hero on desktop. */
+  .mobile-menu{display:none!important;}
+}
+
+/* Mobile menu is truly non-interactive and invisible until opened. */
+@media(max-width:980px){
+  .mobile-menu{visibility:hidden;pointer-events:none;opacity:0;transform:translateY(-105%);}
+  .mobile-menu.open{visibility:visible;pointer-events:auto;opacity:1;transform:none;}
+}
+
+/* Section rail is now a real navigation control (01–08). */
+.section-rail{
+  z-index:880!important;
+  font-size:16px!important;
+  gap:15px!important;
+  pointer-events:auto!important;
+}
+.section-rail .rail-mark{
+  display:block;
+  min-width:31px;
+  padding:3px 2px;
+  color:inherit;
+  font-weight:700!important;
+  opacity:.42;
+  cursor:pointer;
+  pointer-events:auto;
+  transition:opacity .2s ease,color .2s ease,transform .2s ease;
+}
+.section-rail .rail-mark:hover,
+.section-rail .rail-mark:focus-visible{opacity:1;color:var(--hot);outline:none;transform:translateX(4px)}
+.section-rail .rail-mark.active{opacity:1;color:var(--hot)}
+html[dir="rtl"] .section-rail .rail-mark:hover,
+html[dir="rtl"] .section-rail .rail-mark:focus-visible{transform:translateX(-4px)}
+
+/* Keep the hero copy below the enlarged fixed header, never visually colliding with it. */
+@media(min-width:981px){
+  .hero-wrap{padding-top:170px!important;}
+}
+
+/* Make the Boulevard frame read as a wide cinematic location image. */
+.manifesto-img img{object-position:center 58%!important;}
+
+/* Visible keyboard focus on every important control. */
+.nav-shell a:focus-visible,.nav-shell button:focus-visible,.button:focus-visible,.section-rail a:focus-visible{
+  outline:2px solid var(--hot)!important;
+  outline-offset:4px!important;
+}
+
+@media(max-width:760px){
+  .section-rail{font-size:13px!important;gap:9px!important;left:10px!important;}
+  html[dir="rtl"] .section-rail{left:auto!important;right:10px!important;}
+}

@@ -6,3 +6,19 @@ Approach / financial analysis: https://www.pexels.com/photo/person-hands-pen-gla
 Manifesto / Amman panorama: https://www.pexels.com/photo/panoramic-view-of-amman-jordan-20228880/
 
 Pexels license: https://www.pexels.com/license/
+
+Client logo sources refreshed 2026-10-02:
+- Infinity Academy Schools: https://manage.infinityschools.academy/logo.png
+- 3D Academy Jordan: https://www.3d-academy.edu.jo/assets/default/img/brand/3d-academy-logo.png
+- Daftra logo reference: https://asset.brandfetch.io/idjwt_gJOU/idvTY8YVTq.jpeg?updated=1646234152997
+- Orange Jordan logo reference: https://manhom.majarracdn.cloud/mgmt/images/90570/1730131407/%D8%B4%D8%B1%D9%83%D8%A9-%D8%A3%D9%88%D8%B1%D9%86%D8%AC-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86.jpg
+- Hkayatna Restaurant reference: https://www.jra.jo/hkayatna-restaurant
+- Rumman Tourist Resort reference: https://www.allspots.com/jo/directory/-Rumman%2BTourist%2BResort-%D9%85%D9%86%D8%AA%D8%AC%D8%B9%2B%D8%A7%D9%84%D8%B1%D9%85%D8%A7%D9%86%2B%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A-Restaurants-%D9%85%D8%B7%D8%A7%D8%B9%D9%85.html
+
+V10 replacement — The Boulevard, Abdali, Amman:
+https://commons.wikimedia.org/wiki/File:Abdali_Boulevard,_Amman.jpg
+Direct image used by the site: https://upload.wikimedia.org/wikipedia/commons/f/fa/Abdali_Boulevard%2C_Amman.jpg
+
+Client revision V11 image swaps:
+- Vision & Mission: Abdali Boulevard, Amman — https://upload.wikimedia.org/wikipedia/commons/f/fa/Abdali_Boulevard%2C_Amman.jpg
+- HMJ Standard / lower image: accounting laptop + calculator — https://www.stsistemi.si/assets/img/Racunovodstvo.webp
